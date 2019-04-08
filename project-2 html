@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Project N - lastname - portfolio</title>
+<meta charset="utf-8">
+<!--from bootstrap CDN-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!--This is your stylesheet, make sure to load after bootstrap stylesheet to take precedence-->
+<link href="styles.css" rel="stylesheet" type="text/css">
+<!--from bootstrap CDN--> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+<!-- everything on this page is in a fluid container-->
+
+<!-- this is where your page code starts -->
+<h1 class="text-center">Glitch</h1>
+<!-- I first tried putting this in a jumbotron, but did not like it-->
+
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+<!-- the navbar is a list of links and is styled above, you can add your own styles too-->
+<ul class="navbar-nav">
+<li class="nav-item">
+<!-- all of the projects are named and pages are named, once you like this copy it-->
+<a class="nav-link" href="project-1.html">glitch</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="project-2.html">meme mashup</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="project-3.html">game</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="project-4.html">3D print</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="project-5.html">net art</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="project-6.html">portfolio</a>
+</li>
+</ul>
+</nav>
+
+<img class="img-fluid" src="picture/960.jpg" alt="cat pic"> 
+<!-- note that the fluid image will change size with the page size-->
+<!-- some artisinal placeholder text-->
+<p>Photo booth artisan taiyaki kickstarter. Af man braid listicle, pour-over VHS blue bottle enamel pin gentrify crucifix deep v quinoa 8-bit etsy scenester skateboard. Kombucha swag meggings +1, keffiyeh sriracha enamel pin synth kinfolk organic affogato vape. Pabst photo booth brooklyn air plant cornhole four loko.</p>
+
+<p>Neutra williamsburg helvetica lumbersexual subway tile, thundercats fanny pack gluten-free pop-up woke. Wayfarers offal distillery vape ennui pinterest YOLO. Polaroid schlitz fixie thundercats, affogato af bespoke chartreuse marfa. Selfies artisan man braid yr mlkshk bushwick vaporware chillwave ennui lo-fi. Chia occupy polaroid fingerstache, fanny pack distillery hashtag artisan ramps marfa. Live-edge unicorn four loko organic chia prism woke plaid heirloom tattooed polaroid seitan jianbing. Blue bottle YOLO forage gluten-free.</p>
+
+
+</div>
+
+</body>
+</html>

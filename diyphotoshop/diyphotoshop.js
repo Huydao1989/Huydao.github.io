@@ -1,61 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Project N - lastname - portfolio</title>
-<meta charset="utf-8">
-<!--from bootstrap CDN-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<!--This is your stylesheet, make sure to load after bootstrap stylesheet to take precedence-->
-<link href="styles.css" rel="stylesheet" type="text/css">
-<!--from bootstrap CDN--> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-
-<div class="container-fluid">
-<!-- everything on this page is in a fluid container-->
-
-<!-- this is where your page code starts -->
-<h1 class="text-center">DIY photoshop </h1>
-<!-- I first tried putting this in a jumbotron, but did not like it-->
-
-<nav class="navbar navbar-expand-sm bg-light navbar-light">
-<!-- the navbar is a list of links and is styled above, you can add your own styles too-->
-<ul class="navbar-nav">
-<li class="nav-item">
-<a class="nav-link" href="index-1.html">home</a>
-</li>
-<!-- all of the projects are named and pages are named, once you like this copy it-->
-<li class="nav-item">
-<a class="nav-link" href="project-1.html">glitch</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="project-2.html">meme mashup</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="project-3.html">game</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="project-4.html">3D print</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="project-5.html">p5js</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="project-6.html">DIY photoshop</a>
-</li>
-</ul>
-</nav>
-<a href="self_portrait/index.html"><img class="img-fluid" src="picture/diy photoshop.png" alt="cat pic"></a> 
-<!-- note that the fluid image will change size with the page size-->
-<!-- some artisinal placeholder text-->
-<p>The portrait of myself.  </p>
-	<iframe src="diyphotoshop/index.html"></iframe>
-	
-	<pre>
 var img;
 var initials ='jm'; // your initials
 var choice = '1'; // starting choice, so it is not empty
@@ -170,12 +112,3 @@ saveCanvas(filename, 'jpg');
 lastscreenshot=second(); // set this to the current second so no more than one per second
 
 }
-</pre>
-
-<p></p>
-
-
-</div>
-
-</body>
-</html>
